@@ -1,5 +1,19 @@
 # Bulky Book Store
 
+[![C#](https://img.shields.io/badge/C%23-12%2B-239120.svg?logo=csharp&logoColor=white)](https://learn.microsoft.com/dotnet/csharp/)
+[![.NET](https://img.shields.io/badge/.NET-8-512BD4.svg?logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
+[![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-8-512BD4.svg?logo=dotnet&logoColor=white)](https://learn.microsoft.com/aspnet/core/)
+[![ASP.NET Core MVC](https://img.shields.io/badge/ASP.NET%20Core%20MVC-8-512BD4.svg?logo=dotnet&logoColor=white)](https://learn.microsoft.com/aspnet/core/mvc/)
+[![ASP.NET Core Web API](https://img.shields.io/badge/ASP.NET%20Core%20Web%20API-8-512BD4.svg?logo=dotnet&logoColor=white)](https://learn.microsoft.com/aspnet/core/web-api/)
+[![Razor Pages](https://img.shields.io/badge/Razor%20Pages-8-512BD4.svg?logo=dotnet&logoColor=white)](https://learn.microsoft.com/aspnet/core/razor-pages/)
+[![ASP.NET Core Identity](https://img.shields.io/badge/ASP.NET%20Core%20Identity-8-512BD4.svg?logo=dotnet&logoColor=white)](https://learn.microsoft.com/aspnet/core/security/authentication/identity/)
+[![Entity Framework Core](https://img.shields.io/badge/Entity%20Framework%20Core-8-512BD4.svg?logo=dotnet&logoColor=white)](https://learn.microsoft.com/ef/core/)
+[![SQL Server](https://img.shields.io/badge/SQL%20Server-2022-CC2927.svg?logo=microsoftsqlserver&logoColor=white)](https://www.microsoft.com/sql-server)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3.svg?logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
+[![jQuery](https://img.shields.io/badge/jQuery-3-0769AD.svg?logo=jquery&logoColor=white)](https://jquery.com/)
+[![Status](https://img.shields.io/badge/Status-Educational%20Project-success.svg)](#)
+
+
 An educational online bookstore built with ASP.NET Core MVC, Entity Framework Core, SQL Server, and ASP.NET Core Identity. The project demonstrates a layered .NET application with repository abstractions, Unit of Work, MVC Areas, role-based authorization, database migrations, and product management.
 
 > This is a learning project rather than a production-ready commerce platform. Payment processing, checkout, inventory, and order management are intentionally outside the current scope.
@@ -13,6 +27,7 @@ An educational online bookstore built with ASP.NET Core MVC, Entity Framework Co
 - Create, edit, and delete operations for categories
 - Create, update, delete, and image upload operations for products
 - ASP.NET Core Identity pages for registration, login, logout, account management, password reset, and two-factor authentication
+- API-style JSON endpoints for admin product listing and deletion
 - SQL Server persistence through Entity Framework Core migrations
 - Repository and Unit of Work abstractions separating the web layer from data access
 - Nullable reference types and implicit usings enabled across the .NET projects
@@ -169,4 +184,4 @@ This project is useful for practicing:
 
 ## License
 
-This repository is an educational project. No license has been specified. 
+This repository is an educational project. No license has been specified 
